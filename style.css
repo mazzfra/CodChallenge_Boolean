@@ -1,0 +1,78 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "poppins", sans-serif;
+}
+
+section, header, #logo, .barra-pulsanti {
+  margin: auto;
+  }
+
+section {
+  height: 800px;
+  width: 50%;
+  margin-top: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 5%;
+  color: white;
+  padding: 60px;
+  }
+
+header {
+  color: #01dd01;
+}
+
+#logo {
+  display: block;
+  width: 200px;
+}
+.barra-pulsanti {
+  background-color: #01dd01;
+  width: 90%;
+  padding: 10px;
+
+}
+.barra-pulsanti div, header {
+  text-align: center;
+}
+
+.barra1{
+  background-color:orange;
+  margin-right: 70%;
+}
+.barra2{
+  background-color:#01dd01;
+  margin-right: 30%;
+}
+.barra3{
+  background-color:red;
+  margin-right: 85%;
+}
+
+.barra1,.barra2,.barra3{
+    border-radius: 5px;
+    height: 25px;
+    margin-left: auto;
+}
+.monopattino{
+  margin-bottom: 25px;
+}
+.monopattino label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.monopattino p{
+    font-size: 14px;
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}
